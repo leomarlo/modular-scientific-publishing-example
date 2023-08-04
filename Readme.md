@@ -12,7 +12,7 @@ This project contains a modular structure for creating scientific papers, runnin
 
 ### Setup
 
-Run the `setup.sh` script in your terminal. The script will check if Python3 is installed and will exit if it is not. The script will also set up the necessary virtual environments and dependencies for running simulations, generating papers, and creating presentations.
+Run the `setup.sh` script in your terminal (you might have to *chmod u+x setup.sh* before). The script will check if Python3 is installed and will exit if it is not. The script will also set up the necessary virtual environments and dependencies for running simulations, generating papers, and creating presentations.
 
 Use the following command to run the script:
 
@@ -26,6 +26,8 @@ The script accepts the following optional flags:
 - _--simulation_: Runs a simulation, generates a PDF, and informs you when the PDF has been generated.
 - _--paper_: Generates a paper.
 - _--presentation_: Prepares for a presentation.
+
+
 For example, to remove existing virtual environments, run a simulation and create the paper use:
 
 ```bash
