@@ -1,0 +1,6 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Metadata for the Research Paper on Political Power Networks.",
+  "author-name": "Leonhard Horstmeyer",
+  "title": "A model for political power networks"
+}
