@@ -36,6 +36,7 @@ cd ..
 
 # echo that pdf has been generated
 echo ">>> PDF has been generated"
+echo ">>> PDF can be found in paper/dist/draft.pdf"
 
 
 

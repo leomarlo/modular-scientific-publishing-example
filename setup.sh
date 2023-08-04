@@ -74,16 +74,12 @@ for arg in "${args[@]}"; do
   if [ "$arg" == "--simulation" ]; then
     echo ">>> Running Simulation"
     simulation/.venv/bin/python3 simulation/main.py
-    cd paper
-    # Generate the pdflatex
-    ./generatePdf.sh &> /dev/null
-    cd ..
-    # echo that pdf has been generated
-    echo ">>> PDF has been generated"
   fi
   if [ "$arg" == "--paper" ]; then
     echo ">>> Generating Paper"
     paper/.venv/bin/python3 paper/generateMain.py
+    # Generate the pdflatex
+    ./scripts/compilePaper.sh
   fi
   if [ "$arg" == "--presentation" ]; then
       echo ">>> Generate Presentation"
